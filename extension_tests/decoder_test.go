@@ -2,12 +2,13 @@ package test
 
 import (
 	"bytes"
-	"github.com/json-iterator/go"
-	"github.com/stretchr/testify/require"
 	"strconv"
 	"testing"
 	"time"
 	"unsafe"
+
+	"github.com/chslink/go"
+	"github.com/stretchr/testify/require"
 )
 
 func Test_customize_type_decoder(t *testing.T) {

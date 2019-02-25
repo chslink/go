@@ -2,12 +2,12 @@ package misc_tests
 
 import (
 	"bytes"
-	"testing"
-
-	"github.com/json-iterator/go"
-	"github.com/stretchr/testify/require"
 	"strings"
+	"testing"
 	"time"
+
+	"github.com/chslink/go"
+	"github.com/stretchr/testify/require"
 )
 
 func Test_empty_object(t *testing.T) {
